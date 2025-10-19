@@ -6,7 +6,7 @@ class MovingShapeApp:
         self.root = root
         self.root.title("Moving Shape App")
 
-        self.canvas = tk.Canvas(root, width=600, height=600, bg="white")
+        self.canvas = tk.Canvas(root, width=800, height=700, bg="white")
         self.canvas.pack()
 
         self.shape = self.canvas.create_oval(100, 100, 200, 200, fill="blue")
