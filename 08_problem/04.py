@@ -3,7 +3,7 @@ import random
 import time
 
 def animate_text(canvas, text_id):
-    for _ in range(100):
+    for i in range(100):
         update_text_size(canvas, text_id)
         update_text_color(canvas, text_id)
         canvas.update()
